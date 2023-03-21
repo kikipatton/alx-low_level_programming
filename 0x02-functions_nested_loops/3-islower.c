@@ -4,11 +4,12 @@
  */
 int _islower(int c)
 {
+	int result;
 	if (c <= 'z')
 	{
-		_putchar(1);
+		return(1);
 	}
 	else
-	return(0);
+		return(0);
 }
 

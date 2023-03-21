@@ -4,12 +4,10 @@
  *@n: Varibale given to compute
  *Return: absolute value
  */
-int _abs(int)
+int _abs(int h)
 {
-	int n;
-
-	if (n >= 0)
-		return (n);
+	if (h >= 0)
+		return (h);
 	else
-		return (-n);
+		return (-h);
 }

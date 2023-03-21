@@ -3,10 +3,9 @@
  * main - main code here
  * return: 0 (success)
  */
-int main(void)
+/*function returning lowercase alphabet*/
+void print_alphabet(void)
 {
-	/*function returning lowercase alphabet*/
-	void print_alphabet(void){
         char c = 'a';
         while (c <= 'z')
         {
@@ -14,5 +13,4 @@ int main(void)
                 c++;
         }
         _putchar('\n');
-}
 }

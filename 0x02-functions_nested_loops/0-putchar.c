@@ -1,5 +1,10 @@
 #include "main.h"
-int main() {
+
+/**
+ * main-main function goes here
+ */
+int main()
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -10,5 +15,5 @@ int main() {
 	_putchar('r');
 	_putchar('\n');
 	
-	return 0;
+	return (0);
 }

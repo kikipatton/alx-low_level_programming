@@ -11,7 +11,7 @@ void print_alphabet(void);
 int main(void)
 {
 	/*function returning lowercase alphabet*/
-	char print_alphabet(char){
+	void print_alphabet(void){
         char result;
         char c = 'a';
         while (c <= 'z')

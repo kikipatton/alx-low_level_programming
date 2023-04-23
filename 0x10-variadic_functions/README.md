@@ -1,0 +1,2 @@
+This are variadic functions"
+
